@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="aa"></h1>
+    <p id="bb"></p>
+    <p id="res"></p>
+    <p id ="q"></p>
+    <p id ="r"></p>
+    <p id ="s"></p>
+    <p id ="t"></p>
+    <p id ="f"></p>
+
+    <script>
+        document.getElementById("aa").innerHTML="Javascript";
+        document.getElementById("bb").innerHTML="Written With JS";
+        var a = 5;
+        var b = 7;
+        var sum = a+b;
+        document.getElementById("res").innerHTML= "This is sum" +sum;
+        var x =10;
+        var y = 9;
+        var q = x-y;
+        var r = x+y;
+        var s = x*y;
+        var t = x/y;
+        document.getElementById("q").innerHTML="This is difference"+q;
+        document.getElementById("r").innerHTML="This is sum"+r;
+        document.getElementById("s").innerHTML="This is multiplication"+s;
+        document.getElementById("t").innerHTML="This is division"+t;
+        x += 8;
+        document.getElementById("f").innerHTML=+x;
+    </script>
+</body>
+</html>
